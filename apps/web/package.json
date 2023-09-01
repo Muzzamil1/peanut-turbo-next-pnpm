@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@squirrel-labs/peanut-sdk": "^0.0.80",
+    "@squirrel-labs/peanut-sdk": "^0.0.98",
     "bufferutil": "^4.0.7",
     "ethers": "5.7.2",
     "next": "^13.4.1",

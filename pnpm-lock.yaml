@@ -1,4 +1,3 @@
-# I am the new, correct lockfile :)
 lockfileVersion: '6.0'
 
 settings:
@@ -62,8 +61,8 @@ importers:
   apps/web:
     dependencies:
       '@squirrel-labs/peanut-sdk':
-        specifier: ^0.0.80
-        version: 0.0.80(bufferutil@4.0.7)(utf-8-validate@5.0.2)
+        specifier: ^0.0.98
+        version: 0.0.98(bufferutil@4.0.7)(utf-8-validate@5.0.2)
       bufferutil:
         specifier: ^4.0.7
         version: 4.0.7
@@ -716,12 +715,11 @@ packages:
     resolution: {integrity: sha512-0xd7qez0AQ+MbHatZTlI1gu5vkG8r7MYRUJAHPAHJBmGLs16zpkrpAVLvjQKQOqaXPDUBwOiJzNc00znHSCVBw==}
     dev: false
 
-  /@squirrel-labs/peanut-sdk@0.0.80(bufferutil@4.0.7)(utf-8-validate@5.0.2):
-    resolution: {integrity: sha512-0zpg8KPRU24qQfi1eJF0b7X0ql82SLvPyK+n83oyjqdKzb5xEMENLK5G5db6N2qleAh946EX6EaDbigVDXP35g==}
+  /@squirrel-labs/peanut-sdk@0.0.98(bufferutil@4.0.7)(utf-8-validate@5.0.2):
+    resolution: {integrity: sha512-ycIpkyPnbXbZq5qzU8xKBEfBIkZfRaqT2hC1uqHktTf1eWHsCkN5LN8JLMfZWGSEgTm9l9GCK8uoXvI9CHZK7Q==}
     dependencies:
       ethersv5: /ethers@5.7.2(bufferutil@4.0.7)(utf-8-validate@5.0.2)
       isomorphic-fetch: 3.0.0
-      registry.npmjs.org: 1.0.1
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -3486,10 +3484,6 @@ packages:
     dependencies:
       rc: 1.2.8
     dev: true
-
-  /registry.npmjs.org@1.0.1:
-    resolution: {integrity: sha512-uOultrkuUDeGYYi/GJGmEIavWeyKsmff0mSnpeKPOAu5omOjlUpmNkLlMoGZYnCyz/QyDMJMpzo8t2gcWF8Ozg==}
-    dev: false
 
   /require-from-string@2.0.2:
     resolution: {integrity: sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==}
